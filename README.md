@@ -11,6 +11,8 @@ diseñada para ser utilizada en clientes de correo como **Gmail, Outlook, Yahoo,
 ✅ **Código ligero y limpio**  
 ✅ **Colores y tipografías personalizadas**  
 ✅ **Modularidad** con `style.css` para fácil actualización  
+✅ **Botón de cita con integración a Calendly**  
+✅ **Enlace directo a WhatsApp y correo electrónico**  
 
 ---
 
@@ -53,6 +55,57 @@ Si deseas personalizar la apariencia de la firma, edita el archivo **`style.css`
 
 Después de hacer los cambios, **guarda el archivo y recarga la firma en tu cliente de correo**.
 
+## 📅 **Modificar el botón de Agendar Cita**
+El botón de **"Agendar Cita"** está vinculado a **Calendly** para permitir que los clientes reserven una reunión fácilmente. Si deseas cambiar el enlace a otra plataforma de reservas o modificarlo, edita esta línea en `signature.html`:
+
+```html
+<a href="https://calendly.com/tzurielpo/preproduccion" alt="Agendar Cita" class="cita">
+    <i class="fas fa-calendar-alt"></i> Agendar Cita
+</a>
+```
+
+🔹 **Si deseas cambiar el enlace:**
+- Reemplaza `https://calendly.com/tzurielpo/preproduccion` con tu propio enlace de Calendly o cualquier otro servicio de citas.
+- Puedes personalizar el **texto y el ícono** dentro del `<a>` según prefieras.
+
+Después de hacer esto, la nueva URL de agendamiento estará disponible en la firma de correo.
+
+---
+
+## 📱 **Modificar el enlace de WhatsApp**
+Si deseas cambiar el número de WhatsApp en la firma, edita esta línea en `signature.html`:
+
+```html
+<a href="https://wa.me/525566303728" alt="WhatsApp">
+    <i class="fab fa-whatsapp"></i> +52 (55) 66 30 37 28
+</a>
+```
+
+🔹 **Si deseas cambiar el número:**
+- Reemplaza `525566303728` con tu propio número de WhatsApp en formato internacional (**sin signos de + o espacios**).
+- Puedes modificar el texto visible si deseas mostrar otro formato.
+
+Después de hacer esto, la nueva URL de WhatsApp estará activa en la firma.
+
+---
+
+## 📧 **Modificar el enlace de correo electrónico**
+Si deseas cambiar la dirección de correo en la firma, edita esta línea en `signature.html`:
+
+```html
+<a href="mailto:tzurielpo@outlook.com" alt="Correo Electrónico">
+    <i class="fas fa-envelope"></i> tzurielpo@outlook.com
+</a>
+```
+
+🔹 **Si deseas cambiar la dirección de correo:**
+- Reemplaza `tzurielpo@outlook.com` con la nueva dirección de correo deseada.
+- Puedes personalizar el texto visible si deseas mostrar otro formato.
+
+Después de hacer esto, la nueva dirección de correo estará activa en la firma.
+
+---
+
 ## 🖼 **Modificar la imagen de perfil**
 Si deseas cambiar la imagen de perfil, sigue estos pasos:
 
@@ -90,3 +143,8 @@ Si la hoja de estilos sigue sin cargarse, prueba en **otro navegador o borra la 
 ```
 
 ---
+
+## 📄 Licencia
+Este proyecto está bajo la **Licencia MIT**, lo que significa que puedes modificar y distribuir el código libremente con atribución.
+
+📩 **Desarrollado por Tzuriel Plata** - [tzurielpo@outlook.com](mailto:tzurielpo@outlook.com)
