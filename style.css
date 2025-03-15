@@ -1,0 +1,186 @@
+/*
+ * Archivo: style.css
+ * Descripción: Contiene los estilos para la firma de correo de Tzuriel Plata.
+ * Autor: Tzuriel Plata
+ * Uso: Debe enlazarse desde el HTML de la firma.
+ */
+
+@font-face {
+    font-family: 'AmsterdamOne';
+    src: url('https://raw.githubusercontent.com/tzurielpo/emailsignature/signature/AmsterdamOne-eZ12l.ttf') format('truetype');
+}
+
+/* Estilo general del cuerpo */
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 6.2px;
+    color: #000;
+}
+
+/* Contenedor principal de la firma */
+.signature {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 12px;
+    gap: 20px;
+    max-width: 100%;
+    justify-content: center;
+}
+
+/* Contenedor de la foto */
+.photo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Estilos de la foto de perfil */
+.photo {
+    width: 100%;
+    max-width: 116px;
+    height: auto;
+    max-height: 174px;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 3px solid #0097b2;
+}
+
+.photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Contenedor de redes sociales */
+.social-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 8px;
+}
+
+/* Íconos de redes sociales */
+.social-icons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    justify-content: center;
+}
+
+.social-icons a {
+    color: #737373;
+    font-size: 8.1px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #0097b2;
+}
+
+/* Nombre de usuario en redes sociales */
+.username {
+    font-size: 6px;
+    color: #737373;
+    text-align: center;
+    margin-top: 5px;
+}
+
+/* Información del contacto */
+.info {
+    display: flex;
+    flex-direction: column;
+    border-left: 1px dashed #737373;
+    padding-left: 20px;
+    margin-left: 10px;
+    min-width: 220px;
+    justify-content: center;
+}
+
+/* Estilo del nombre principal */
+.name {
+    font-size: 17.2px;
+    color: #0097b2;
+    font-weight: bold;
+    font-family: 'AmsterdamOne', sans-serif;
+    transform: rotate(-2deg);
+    display: inline-block;
+    margin-left: 0px;
+}
+
+/* Estilo del cargo */
+.role {
+    font-size: 5px;
+    color: #737373;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+    display: flex;
+    align-items: center;
+    margin-top: 3px;
+}
+
+.role::before {
+    content: "■";
+    font-size: 6px;
+    color: #0097b2;
+    margin-right: 6px;
+}
+
+/* Estilos de contacto */
+.contact {
+    font-size: 6.5px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: #000;
+    margin-top: 6px;
+}
+
+.contact a {
+    text-decoration: none;
+    transition: color 0.3s ease;
+    color: #000;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.contact a i {
+    transition: color 0.3s ease;
+}
+
+/* Efecto hover en WhatsApp */
+.contact a[href^="https://wa.me"]:hover {
+    color: #25D366; /* Verde WhatsApp */
+}
+
+.contact a[href^="https://wa.me"]:hover i {
+    color: #25D366; /* Verde WhatsApp */
+}
+
+/* Efecto hover en correo */
+.contact a[href^="mailto"]:hover {
+    color: #0097b2; /* Azul estándar */
+}
+
+.contact a[href^="mailto"]:hover i {
+    color: #0097b2; /* Azul estándar */
+}
+
+/* Estilos del botón de cita */
+.cita {
+    font-size: 6.5px;
+    color: #0097b2;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 8px;
+    transition: color 0.3s ease;
+}
+
+.cita:hover {
+    color: #000;
+}
