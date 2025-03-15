@@ -1,6 +1,7 @@
-# 📩 Firma de Correo Electrónico - Tzuriel Plata
+# 📩 Firma de Correo Electrónico
 
-Este repositorio contiene la firma de correo electrónico de **Tzuriel Plata**, diseñada para ser utilizada en clientes de correo como **Gmail, Outlook, Yahoo, AOL, entre otros**. 
+Este repositorio contiene una firma de correo electrónico, 
+diseñada para ser utilizada en clientes de correo como **Gmail, Outlook, Yahoo, AOL, entre otros**. 
 
 ## 📌 Características
 
