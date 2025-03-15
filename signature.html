@@ -12,7 +12,7 @@
         }
         body {
             font-family: 'Montserrat', sans-serif;
-            font-size: 14px;
+            font-size: 5.8px;
             color: #000;
         }
         .signature {
@@ -70,17 +70,27 @@
             padding-left: 15px;
         }
         .name {
-            font-size: 17px;
+            font-size: 16.9px;
             color: #0097b2;
             font-weight: bold;
             font-family: 'AmsterdamOne', sans-serif;
         }
         .role {
-            font-size: 12px;
+            font-size: 3.3px;
             color: #737373;
+            display: flex;
+            align-items: center;
+        }
+        .role::before {
+            content: "";
+            display: inline-block;
+            width: 30px;
+            height: 2px;
+            background-color: #0097b2;
+            margin-right: 8px;
         }
         .contact {
-            font-size: 12px;
+            font-size: 5.8px;
             display: flex;
             align-items: center;
             gap: 5px;
@@ -91,7 +101,7 @@
             font-size: 14px;
         }
         .cita {
-            font-size: 12px;
+            font-size: 5.8px;
             color: #0097b2;
             text-decoration: none;
             display: flex;
