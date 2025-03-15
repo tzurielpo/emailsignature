@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Firma de Correo - Tzuriel Plata</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        @font-face {
+            font-family: 'AmsterdamOne';
+            src: url('https://raw.githubusercontent.com/usuario/repositorio/rama/AmsterdamOne-eZ12l.ttf') format('truetype');
+        }
+        body {
+            font-family: Arial, sans-serif;
+            font-size: 14px;
+            color: #333;
+        }
+        .signature {
+            display: flex;
+            align-items: center;
+            padding: 10px;
+        }
+        .photo {
+            width: 80px;
+            height: 80px;
+            border-radius: 10px;
+            overflow: hidden;
+            margin-right: 15px;
+        }
+        .photo img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .info {
+            display: flex;
+            flex-direction: column;
+        }
+        .name {
+            font-size: 18px;
+            color: #0099cc;
+            font-weight: bold;
+            font-family: 'AmsterdamOne', sans-serif;
+        }
+        .role {
+            font-size: 12px;
+            color: #666;
+        }
+        .contact {
+            font-size: 12px;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+        .contact i {
+            color: #0099cc;
+            font-size: 14px;
+        }
+        .social-icons {
+            display: flex;
+            gap: 8px;
+            margin-top: 5px;
+        }
+        .social-icons a {
+            color: #0099cc;
+            font-size: 16px;
+            text-decoration: none;
+        }
+        .cita {
+            font-size: 12px;
+            color: #0099cc;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            margin-top: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="signature">
+        <div class="photo">
+            <img src="Hotmail.png" alt="Tzuriel Plata">
+        </div>
+        <div class="info">
+            <div class="name">Tzuriel Plata</div>
+            <div class="role">Productor Musical</div>
+            <div class="contact">
+                <i class="fab fa-whatsapp"></i>
+                <a href="https://wa.me/525566303728" style="text-decoration: none; color: #333;">+52 (55) 66 30 37 28</a>
+            </div>
+            <div class="contact">
+                <i class="fas fa-envelope"></i>
+                <a href="mailto:tzurielpo@outlook.com" style="text-decoration: none; color: #333;">tzurielpo@outlook.com</a>
+            </div>
+            <a href="https://calendly.com/tzurielpo/preproduccion" class="cita">
+                <i class="fas fa-calendar-alt"></i> Agendar Cita
+            </a>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-spotify"></i></a>
+                <a href="#"><i class="fab fa-x-twitter"></i></a>
+                <a href="#"><i class="fab fa-snapchat"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+                <a href="#"><i class="fab fa-tiktok"></i></a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
