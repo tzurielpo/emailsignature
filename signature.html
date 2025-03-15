@@ -20,15 +20,18 @@
             align-items: center;
             padding: 10px;
         }
+        .photo-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-right: 15px;
+        }
         .photo {
             width: 80px;
             height: 80px;
             border-radius: 10px;
             overflow: hidden;
             border: 3px solid #0097b2;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
         }
         .photo img {
             width: 100%;
@@ -65,7 +68,6 @@
             flex-direction: column;
             border-left: 2px dashed #737373;
             padding-left: 15px;
-            margin-left: 15px;
         }
         .name {
             font-size: 17px;
@@ -101,8 +103,10 @@
 </head>
 <body>
     <div class="signature">
-        <div class="photo">
-            <img src="https://raw.githubusercontent.com/tzurielpo/emailsignature/signature/Hotmail.png" alt="Tzuriel Plata">
+        <div class="photo-container">
+            <div class="photo">
+                <img src="https://raw.githubusercontent.com/tzurielpo/emailsignature/signature/Hotmail.png" alt="Tzuriel Plata">
+            </div>
             <div class="social-container">
                 <div class="social-icons">
                     <a href="#"><i class="fab fa-facebook"></i></a>
