@@ -76,13 +76,13 @@ Después de hacer esto, la nueva URL de agendamiento estará disponible en la fi
 Si deseas cambiar el número de WhatsApp en la firma, edita esta línea en `signature.html`:
 
 ```html
-<a href="https://wa.me/525566303728" alt="WhatsApp">
-    <i class="fab fa-whatsapp"></i> +52 (55) 66 30 37 28
+<a href="https://wa.me/############" alt="WhatsApp">
+    <i class="fab fa-whatsapp"></i> +## (##) ## ## ## ##
 </a>
 ```
 
 🔹 **Si deseas cambiar el número:**
-- Reemplaza `525566303728` con tu propio número de WhatsApp en formato internacional (**sin signos de + o espacios**).
+- Reemplaza `############` con tu propio número de WhatsApp en formato internacional (**sin signos de + o espacios**).
 - Puedes modificar el texto visible si deseas mostrar otro formato.
 
 Después de hacer esto, la nueva URL de WhatsApp estará activa en la firma.
@@ -93,13 +93,13 @@ Después de hacer esto, la nueva URL de WhatsApp estará activa en la firma.
 Si deseas cambiar la dirección de correo en la firma, edita esta línea en `signature.html`:
 
 ```html
-<a href="mailto:tzurielpo@outlook.com" alt="Correo Electrónico">
-    <i class="fas fa-envelope"></i> tzurielpo@outlook.com
+<a href="mailto:usr@domain.com" alt="Correo Electrónico">
+    <i class="fas fa-envelope"></i> usr@domain.com
 </a>
 ```
 
 🔹 **Si deseas cambiar la dirección de correo:**
-- Reemplaza `tzurielpo@outlook.com` con la nueva dirección de correo deseada.
+- Reemplaza `usr@domain.com` con la nueva dirección de correo deseada.
 - Puedes personalizar el texto visible si deseas mostrar otro formato.
 
 Después de hacer esto, la nueva dirección de correo estará activa en la firma.
@@ -113,7 +113,7 @@ Si deseas cambiar la imagen de perfil, sigue estos pasos:
 2. Asegúrate de que el nuevo archivo tenga el **mismo nombre (`photo.jpg`)** o actualiza la ruta en `signature.html`:  
 
 ```html
-<img src="https://raw.githubusercontent.com/tzurielpo/emailsignature/signature/photo.jpg" alt="Tzuriel Plata">
+<img src="https://raw.githubusercontent.com/tzurielpo/emailsignature/signature/photo.jpg" alt="Your Name">
 ```
 
 Después de hacer esto, la nueva imagen aparecerá automáticamente en la firma.
